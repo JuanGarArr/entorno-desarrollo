@@ -1,16 +1,16 @@
 package com.juangarcia.pccomponentes;
 
-/** Tarjeta Grafica
+/** DiscoDuro
  *
  */
- public class GraficCard {
+public class DiscoDuro {
     /**
      * Atributos, propiedades y variables
      */
     private Integer id;
     private String marca;
     private String modelo;
-    private String memoriaDDRAM;
+    private String capacidad;
     /**
      * Metodos, funciones, comportamiento
      */
@@ -36,12 +36,12 @@ package com.juangarcia.pccomponentes;
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-    public String getMemoriaDDRAM() {
-        return memoriaDDRAM;
+    public String getCapacidad() {
+        return capacidad;
     }
 
-    public void setMemoriaDDRA(String MemoriaDDRAM) {
-        this.memoriaDDRAM = MemoriaDDRAM;
+    public void setCapacidad(String Capacidad) {
+        this.capacidad = Capacidad;
     }
 
 }
