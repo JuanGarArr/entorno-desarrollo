@@ -86,3 +86,4 @@ public class Main {
         System.out.println(coolermaster.getPotencia());
         System.out.println(coolermaster.getModelo());
 }
+}
