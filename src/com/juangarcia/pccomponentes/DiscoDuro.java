@@ -40,8 +40,8 @@ public class DiscoDuro {
         return capacidad;
     }
 
-    public void setCapacidad(String Capacidad) {
-        this.capacidad = Capacidad;
+    public void setCapacidad(String capacidad) {
+        this.capacidad = capacidad;
     }
 
 }

@@ -40,7 +40,7 @@ package com.juangarcia.pccomponentes;
         return memoriaDDRAM;
     }
 
-    public void setMemoriaDDRA(String MemoriaDDRAM) {
+    public void setMemoriaDDRAM(String MemoriaDDRAM) {
         this.memoriaDDRAM = MemoriaDDRAM;
     }
 
