@@ -1,16 +1,16 @@
 package com.juangarcia.pccomponentes;
 
-/** Clase Fuente De Alimentacion
+/** Clase Teclado
  *
  */
-public class FuenteAlimentacion {
+public class Teclado {
     /**
      * Atributos, propiedades y variables
      */
     private Integer id;
     private String marca;
-    private String potencia;
-    private String modelo;
+    private String size;
+    private String tipo;
     /**
      * Metodos, funciones, comportamiento
      */
@@ -30,19 +30,20 @@ public class FuenteAlimentacion {
         this.marca = marca;
     }
 
-    public String getPotencia() {
-        return potencia;
+    public String getSize() {
+        return size;
     }
 
-    public void setPotencia(String potencia) {
-        this.potencia = potencia;
+    public void setSize(String size) {
+        this.size = size;
     }
 
-    public String getModelo() {
-        return modelo;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
+

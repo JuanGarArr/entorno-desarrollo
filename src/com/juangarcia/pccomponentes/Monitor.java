@@ -1,48 +1,49 @@
 package com.juangarcia.pccomponentes;
 
-/** Clase Fuente De Alimentacion
+/** Clase Monitor
  *
  */
-public class FuenteAlimentacion {
+public class Monitor {
     /**
      * Atributos, propiedades y variables
      */
     private Integer id;
     private String marca;
-    private String potencia;
+    private String size;
     private String modelo;
+    private String tasarefresco;
     /**
      * Metodos, funciones, comportamiento
      */
     public Integer getId() {
         return id;
     }
-
     public void setId(Integer id) {
         this.id = id;
     }
-
     public String getMarca() {
         return marca;
     }
-
     public void setMarca(String marca) {
         this.marca = marca;
     }
-
-    public String getPotencia() {
-        return potencia;
+    public String getSize() {
+        return size;
     }
-
-    public void setPotencia(String potencia) {
-        this.potencia = potencia;
+    public void setSize(String size) {
+        this.size = size;
     }
-
     public String getModelo() {
         return modelo;
     }
-
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+    public String getTasarefresco() {
+        return tasarefresco;
+    }
+
+    public void setTasarefresco(String tasarefresco) {
+        this.tasarefresco = tasarefresco;
     }
 }

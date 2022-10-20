@@ -1,15 +1,15 @@
 package com.juangarcia.pccomponentes;
 
-/** Clase Fuente De Alimentacion
- *
- */
-public class FuenteAlimentacion {
+/** Clase Tarjeta de Sonido
+        *
+        */
+public class TarjetaSonido {
     /**
      * Atributos, propiedades y variables
      */
     private Integer id;
     private String marca;
-    private String potencia;
+    private String puerto;
     private String modelo;
     /**
      * Metodos, funciones, comportamiento
@@ -30,12 +30,12 @@ public class FuenteAlimentacion {
         this.marca = marca;
     }
 
-    public String getPotencia() {
-        return potencia;
+    public String getPuerto() {
+        return puerto;
     }
 
-    public void setPotencia(String potencia) {
-        this.potencia = potencia;
+    public void setPuerto(String puerto) {
+        this.puerto = puerto;
     }
 
     public String getModelo() {
